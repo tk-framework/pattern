@@ -1,0 +1,40 @@
+{
+	"name": "tk-framework/pattern",
+	"description": "Provides several often used patterns.",
+	"homepage": "https://www.timonkreis.de",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Timon Kreis",
+			"email": "mail@timonkreis.de",
+			"homepage": "https://www.timonkreis.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.2.0",
+		"ext-json": "*"
+	},
+	"require-dev": {
+		"tk-framework/test": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Pattern\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Pattern\\Tests\\": "tests/src"
+		}
+	},
+	"keywords": [
+		"pattern"
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "C:/devops/projects/wildbunny-framework/test"
+		}
+	]
+}
