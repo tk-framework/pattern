@@ -16,7 +16,7 @@
 		"ext-json": "*"
 	},
 	"require-dev": {
-		"tk-framework/test": "dev-master"
+		"tk-framework/test": "^1.0.0"
 	},
 	"autoload": {
 		"psr-4": {
@@ -30,11 +30,5 @@
 	},
 	"keywords": [
 		"pattern"
-	],
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "C:/devops/projects/wildbunny-framework/test"
-		}
 	]
 }
