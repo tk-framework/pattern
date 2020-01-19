@@ -11,6 +11,9 @@
 			"role": "Developer"
 		}
 	],
+	"keywords": [
+		"pattern"
+	],
 	"require": {
 		"php": "^7.2.0",
 		"ext-json": "*"
@@ -28,7 +31,10 @@
 			"TimonKreis\\Framework\\Pattern\\Tests\\": "tests/src"
 		}
 	},
-	"keywords": [
-		"pattern"
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.timonkreis.de"
+		}
 	]
 }
